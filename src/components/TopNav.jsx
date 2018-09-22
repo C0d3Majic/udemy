@@ -187,7 +187,6 @@ class PrimarySearchAppBar extends React.Component {
             </div> */}
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
-              <div>tRR</div>
               <IconButton color="inherit">
                 <Badge className={classes.margin} badgeContent={4} color="secondary">
                   <MailIcon />
