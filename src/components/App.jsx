@@ -5,7 +5,9 @@ import {
 } from '@material-ui/core';
 
 import AppHeader from './AppHeader';
+import TopNav from './TopNav';
 import Home from '../pages/Home';
+import SideNav from './SideNav';
 
 const styles = theme => ({
   main: {
@@ -19,11 +21,7 @@ const styles = theme => ({
 const App = ({ classes }) => (
   <Fragment>
     <CssBaseline />
-    <AppHeader />
-    
-    <main className={classes.main}>
-      <Home />
-    </main>
+    <SideNav />
   </Fragment>
 );
 
